@@ -37,10 +37,9 @@
   <script>
   $(function(){
     $("#nav-placeholder").load("nav.html");
-    // $("#myToast").toast('show');
-    $("#myToast").toast({
-      show:true,
-      delay:5000});
+    $(".toast").toast({
+      autohide:false});
+    $('.toast').toast('show');
   });
   </script>
 </body>
