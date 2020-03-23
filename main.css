@@ -2,4 +2,7 @@ body {
   color: red;
   background-color: #1d3bb5;
 }
+.show,.collapsing{
+  background-color:white;
+}
 /*# sourceMappingURL=main.css.map */
