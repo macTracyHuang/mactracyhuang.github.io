@@ -1,5 +1,16 @@
+@media (max-width: 499px) {
+  #toast-body_1::before {
+    content: "Welcome!";
+  }
+}
+@media (min-width: 500px) {
+  #toast-body_1::before {
+    content: "Welcome to My Web Page!";
+  }
+}
 body {
   color: red;
   background-color: #1d3bb5;
 }
+
 /*# sourceMappingURL=main.css.map */
