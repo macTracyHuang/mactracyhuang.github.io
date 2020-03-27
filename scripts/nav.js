@@ -1,11 +1,9 @@
 $(function(){
 // Document is ready
-  $("#nav-placeholder").load("nav.html");
-
   var audio = document.getElementsByTagName("audio")[0];
+  alert(audio.value);
+  $("#nav-placeholder").load("nav.html");
   $("#sugoi").mouseenter(function() {
     audio.play();
   });
-  alert(audio.name);
-  alert("hello");
 });
