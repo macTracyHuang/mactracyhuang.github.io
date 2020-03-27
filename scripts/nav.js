@@ -1,11 +1,9 @@
 $(function(){
 // Document is ready
   var audio = document.getElementsByTagName("audio")[0];
-  var vol = audio.volume;
-  vol = 0.2;
-  audio.volume=vol;
+  audio.volume=0.1;
   $("#nav-placeholder").load("nav.html").delegate("#sugoi","mouseenter",function(){
-    console.log(vol);
+    console.log(audio.volume);
     audio.play();
   });
   // $("#sugoi").mouseenter(function() {
