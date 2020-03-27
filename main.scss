@@ -23,7 +23,7 @@ $maincolor:rgb(29, 59, 181);
 }
 
 body{
-  color:red;
+  color:white;
   background-color: $maincolor;
   // background-color:#e3f2fd;
 }
@@ -41,7 +41,9 @@ body{
 }
 
 .about{
-  color:white;
   margin-top:50%;
   text-align: justify;
+}
+.toast{
+  color: red;
 }

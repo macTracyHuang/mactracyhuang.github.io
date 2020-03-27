@@ -3,7 +3,7 @@ $(function(){
   var audio = document.getElementsByTagName("audio")[0];
   audio.volume=0.1;
   $("#nav-placeholder").load("nav.html").delegate("#sugoi","mouseenter",function(){
-    console.log(audio.volume);
+    console.log(vol);
     audio.play();
   });
   // $("#sugoi").mouseenter(function() {

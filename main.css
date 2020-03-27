@@ -19,7 +19,7 @@
   }
 }
 body {
-  color: red;
+  color: white;
   background-color: #1d3bb5;
 }
 
@@ -36,9 +36,12 @@ body {
 }
 
 .about {
-  color: white;
   margin-top: 50%;
   text-align: justify;
+}
+
+.toast {
+  color: red;
 }
 
 /*# sourceMappingURL=main.css.map */
