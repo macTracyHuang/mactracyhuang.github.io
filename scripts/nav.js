@@ -7,4 +7,5 @@ $(function(){
     audio.play();
   });
   alert(audio.name);
+  alert("hello");
 });
