@@ -8,6 +8,16 @@
     content: "Welcome to My Web Page!";
   }
 }
+@media (max-width: 991px) {
+  .about-border {
+    border-bottom: 1px solid white;
+  }
+}
+@media (min-width: 992px) {
+  .about-border {
+    border-right: 1px solid white;
+  }
+}
 body {
   color: red;
   background-color: #1d3bb5;
@@ -23,6 +33,12 @@ body {
 
 .nav-link, .dropdown-item {
   color: white !important;
+}
+
+.about {
+  color: white;
+  margin-top: 30em;
+  text-align: justify;
 }
 
 /*# sourceMappingURL=main.css.map */
