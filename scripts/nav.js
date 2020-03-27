@@ -4,7 +4,8 @@ $(function(){
   var vol = audio.volume;
   vol = 0.2;
   $("#nav-placeholder").load("nav.html").delegate("#sugoi","mouseenter",function(){
-    console.log(vol)
+    console.log(vol);
+    audio.volume=vol;
     audio.play();
   });
   // $("#sugoi").mouseenter(function() {
