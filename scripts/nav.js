@@ -1,8 +1,8 @@
 $(function(){
 // Document is ready
   var audio = document.getElementsByTagName("audio")[0];
-  audio.volume = 0.2;
-  $("#nav-placeholder").load("nav.html").delegate("#sugoi","mouseenter",function(){
+  $("#nav-placeholder").load("nav.html").delegate("#sugoi","hover",function(){
+    audio.volume = 0.2;
     audio.play();
   });
   // $("#sugoi").mouseenter(function() {
