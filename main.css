@@ -22,7 +22,7 @@ body {
 }
 
 .nav-link, .dropdown-item {
-  color: white;
+  color: white !important;
 }
 
 /*# sourceMappingURL=main.css.map */
