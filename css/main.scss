@@ -28,26 +28,30 @@ body{
   // background-color:#e3f2fd;
 }
 
-main > .container{
+main {
+  > .container{
     margin-top: 10vh;
+  }
+  .about{
+    margin-top:50%;
+    text-align: justify;
+  }
+  .toast{
+    color: red;
+  }
 }
 
-.dropdown-menu{
-  background-color: $maincolor;
-}
+nav{
+  .dropdown-menu{
+    background-color: $maincolor;
+    opacity:0.3;
+  }
 
-.navbar{
-  background-color: $maincolor;
-}
+  .navbar{
+    background-color: $maincolor;
+  }
 
-.nav-link, .dropdown-item{
-  color:white !important;
-}
-
-.about{
-  margin-top:50%;
-  text-align: justify;
-}
-.toast{
-  color: red;
+  .nav-link, .dropdown-item{
+    color:white !important;
+  }
 }

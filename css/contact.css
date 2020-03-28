@@ -1,0 +1,21 @@
+table caption {
+  font-family: monospace;
+  font-size: 16px;
+  color: white;
+}
+
+#table-origin tbody tr:nth-child(even), #table-sale tbody tr:nth-child(even) {
+  background: #17a2b8;
+}
+#table-origin tbody tr:nth-child(odd), #table-sale tbody tr:nth-child(odd) {
+  background-color: #118da0;
+}
+#table-origin thead, #table-sale thead {
+  background-color: black;
+}
+
+#table-sale tr, #table-sale td {
+  border: 1px solid white;
+}
+
+/*# sourceMappingURL=contact.css.map */

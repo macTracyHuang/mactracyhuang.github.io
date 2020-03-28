@@ -1,0 +1,27 @@
+table{
+  caption{
+    font-family: monospace;
+    font-size: 16px;
+    color: white;
+  }
+}
+#table-origin{
+  tbody{
+    tr:nth-child(even) {
+      background:#17a2b8;
+    }
+    tr:nth-child(odd) {
+      background-color: #118da0;
+    }
+  }
+  thead{
+    background-color:black;
+  }
+}
+
+#table-sale{
+  @extend #table-origin;
+  tr, td {
+    border: 1px solid white;
+  }
+}
