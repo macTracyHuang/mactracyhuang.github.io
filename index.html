@@ -13,23 +13,26 @@
   <link rel="stylesheet" type="text/css" href="main.css">
   <title>Portfolio-Tracy Huang</title>
 </head>
-<body>
-  <audio>
-	<source src="sound/bark.mp3"></source>
-	<source src="sound/bark.ogg"></source>
-	Your browser isn't invited for super fun audio time.
-</audio>
-  <!--Navigation bar-->
-  <div id="nav-placeholder">
-  </div>
-  <!--end of Navigation bar-->
-  <div class= "fixed-bottom" style="padding:10%;color:white;">
-    <h1 id="test">
-      Tracy Huang
-    </br>
-    <h2>
-      -coding&sleeping
-    </h2>
+<body class="d-flex flex-column h-100">
+  <header>
+    <audio>
+      <source src="sound/bark.mp3"></source>
+      <source src="sound/bark.ogg"></source>
+      Your browser isn't invited for super fun audio time.
+    </audio>
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+    </div>
+    <!--end of Navigation bar-->
+  </header>
+  <main>
+    <div class= "fixed-bottom" style="padding:10%;color:white;">
+      <h1 id="test">
+        Tracy Huang
+      </br>
+      <h2>
+        -coding&sleeping
+      </h2>
     </h1>
   </div>
   <div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 200px;">
@@ -64,29 +67,31 @@
       </div>
     </div>
   </div>
-  <!--Footer-->
-<footer class="bg-dark text-right fixed-bottom">
-    <!--Copyright-->
-        <div class="container-fluid">
-          <div class="row">
-            <div class="progress bg-dark col-md-6">
-    <div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+</main>
+
+<!--Footer-->
+<footer class="bg-dark footer mt-auto py-3">
+  <!--Copyright-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="progress bg-dark col-md-6">
+        <div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+      </div>
+      <div class="col-md-6 text-right">
+        © 2020 macgradyTracy
+      </div>
+    </div>
   </div>
-          <div class="col-md-6">
-          © 2020 macgradyTracy
-        </div>
-        </div>
-        </div>
-    <!--/.Copyright-->
+  <!--/.Copyright-->
 </footer>
 <!--/.Footer-->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
-  <!-- Optional JavaScript -->
-  <script defer src="./scripts/myToast.js"></script>
-  <script defer src="./scripts/nav.js"></script>
-  </body>
-  </html>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+<!-- Optional JavaScript -->
+<script defer src="./scripts/myToast.js"></script>
+<script defer src="./scripts/nav.js"></script>
+</body>
+</html>
