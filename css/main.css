@@ -36,7 +36,6 @@ main .toast {
 
 nav .dropdown-menu {
   background-color: #1d3bb5;
-  opacity: 0.3;
 }
 nav .navbar {
   background-color: #1d3bb5;
@@ -44,7 +43,5 @@ nav .navbar {
 nav .nav-link, nav .dropdown-item {
   color: white !important;
 }
-
-
 
 /*# sourceMappingURL=main.css.map */
