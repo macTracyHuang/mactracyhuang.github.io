@@ -23,6 +23,10 @@ body {
   background-color: #1d3bb5;
 }
 
+main > .container {
+  margin-top: 10%;
+}
+
 .dropdown-menu {
   background-color: #1d3bb5;
 }
